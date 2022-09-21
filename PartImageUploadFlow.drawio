@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="4d1TBi_PGhRXGTXi2tCB" name="Page-1">
-        <mxGraphModel dx="1020" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -64,6 +64,14 @@
                 <mxCell id="d91mfsnvNrbqskriMuSQ-37" value="&lt;div style=&quot;text-align: center&quot;&gt;ImageModerated&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;SNS Topic&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="250" y="590" width="180" height="65" as="geometry"/>
                 </mxCell>
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="d91mfsnvNrbqskriMuSQ-41" target="d91mfsnvNrbqskriMuSQ-37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Puts image status on queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2">
+                    <mxGeometry x="-0.1283" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="d91mfsnvNrbqskriMuSQ-41" value="Image is&lt;br&gt;&quot;ok&quot;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;arcSize=14;" parent="1" vertex="1">
                     <mxGeometry x="255" y="470" width="70" height="70" as="geometry"/>
                 </mxCell>
@@ -101,6 +109,17 @@
                 <mxCell id="xUNJ6hqU6EIqXM0KdI4q-1" value="Cumulative Score&lt;br&gt;is less than 0.5" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="1" connectable="0" vertex="1">
                     <mxGeometry x="329.9950397465783" y="440.00479364054735" as="geometry">
                         <mxPoint x="6" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;entryX=0.706;entryY=-0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d91mfsnvNrbqskriMuSQ-44" target="d91mfsnvNrbqskriMuSQ-37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="313.6497677663424" y="547.2286183371971" as="sourcePoint"/>
+                        <mxPoint x="336.17021276595756" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Puts image status on queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4">
+                    <mxGeometry x="-0.1283" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
             </root>
